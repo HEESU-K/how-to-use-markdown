@@ -1,5 +1,19 @@
 # 마크다운 작성법
 
+## 목차
+[1. 헤더](#1-header-헤더)
+[2. 강조](#1-emphasis-강조)
+[3. 인용](#3-blockquotes-인용)
+[4. 목록](#4-list-목록)
+[5. 백슬래쉬 이스케이프](#5-backslash-escapes-백슬래쉬-이스케이프프)
+[6. 이미지](#6-images-이미지)
+[7. 링크](#7-link-링크)
+[8. 코드 블럭](#8-fenced-code-blocks-코드-블럭)
+[9. 체크 리스트](#9-task-list-체크-리스트)
+[10. 수평선](#10-horizontal-rules-수평선)
+[11. 테이블](#11-table-테이블)
+[12. 줄바꿈](#12-line-breaks-줄바꿈)
+
 ## 1. Header 헤더
 * `#`으로 시작
 * 1개부터 6개까지
@@ -42,7 +56,7 @@ _This text italic too_ <br>
 __This text bold too__ <br>
 ~~This text cancled~~ <br>
 **This text *italic* and bold** <br>
-## Blockquotes 인용
+## 3. Blockquotes 인용
 * `>`로 시작하는 텍스트
 * `>`는 3개까지 가능
 ### 인용 Syntax
@@ -55,7 +69,7 @@ Use Blockquotes
 > This sentence uses first quotation
 >> This is second blockquote
 >>> This is third blockquote
-## List 목록
+## 4. List 목록
 ### 4.1 순서가 없는 목록
 * `*`, `+`, `-`를 이용해서 순서가 없는 목록을 만든다
 * 들여쓰기를 하면 모양이 바뀐다
@@ -88,7 +102,7 @@ Use Blockquotes
    2. item 2-1
       1. item 1-2
       2. item 2-2
-## 5. Backslash Escaptes 백슬래쉬 이스케이프
+## 5. Backslash Escapes 백슬래쉬 이스케이프
 * 특수문자를 표현할 때, 표시될 문자 앞에 `\`를 넣는다
 * `감싸는 형태가 아니라` 문자의 앞, 뒤 모두 백슬래쉬 뒤에 특수문자가 온다
 * \ backslash, \ backtick, * asterisk, _ underscore, {} curly braces, [] square brackets, () parentheses, # hash mark, + plus sign, - minus sign (hyphen), . dot, ! exclamation mark
@@ -102,13 +116,13 @@ Use Blockquotes
 \[squre brackets\] <br>
 ## 6. Images 이미지
 * 앞에 `!`가 붙는다
-* 인라인 이미지: ![alt text](/image.png)
+* 인라인 이미지: ![alt text](/image.jpg)
 * 링크 이미지: ![alt text](image url)
 * 이미지 사이즈 변경: `<img width="OOOpx" height="OOOpx"></img>`와 같이 표현
 ### 이미지 Syntax
     ![사진 설명](/image.png)
 ### 이미지 실행결과
-![풍경사진](/image.png)
+![풍경사진](/image.jpg) <br>
 ##7. Link 링크
 ### 7.1 외부 링크
     인라인 링크: [링크](http:/.example.com "링크 제목") 
@@ -122,8 +136,8 @@ Use Blockquotes
 ### 외부링크 실행결과
 [Google](https://www.google.com "구글") <br>
 [Naver](https://www.naver.com "네이버") <br>
-구글 www.google.com; 꺽쇠X <br>
-네이버 <www.naver.com>; 꺽쇠O <br>
+구글 www.google.com;  꺽쇠X <br>
+네이버 <www.naver.com>;  꺽쇠O <br>
 E-mail <example@example.com> <br>
 ### 7.2 내부 링크
     [보여지는 내용](#이동할 헤드(제목))
@@ -134,11 +148,11 @@ E-mail <example@example.com> <br>
 [3. 인용](#3-blockquotes-인용) <br>
 ### 내부 링크 실행결과
 [1. 헤더](#1-header-헤더)
-[2. 강조](#1-emphasis-강조))
+[2. 강조](#1-emphasis-강조)
 [3. 인용](#3-blockquotes-인용)
 ## 8. Fenced Code Blocks 코드 블럭
 * 간단한 인라인 코드는 텍스트 앞뒤로 `기호로 감싼다
-* \`\`\ 혹은 ~~~ 코드
+* \`\`\` 혹은 ~~~ 코드
 * 첫 줄과 마지막 줄에 (```) 또는 (~~~) 삽입
 * 앞에 공백 네 칸 추가
 * \`\`\`옆에 언어를 지정해주면 syntax color 적용
