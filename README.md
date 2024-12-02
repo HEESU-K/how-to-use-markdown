@@ -116,14 +116,14 @@ Use Blockquotes
 \[squre brackets\] <br>
 ## 6. Images 이미지
 * 앞에 `!`가 붙는다
-* 인라인 이미지: ![alt text](/image.jpg)
-* 링크 이미지: ![alt text](image url)
+* 인라인 이미지: `![alt text](/image.jpg)`
+* 링크 이미지: `![alt text](image url)`
 * 이미지 사이즈 변경: `<img width="OOOpx" height="OOOpx"></img>`와 같이 표현
 ### 이미지 Syntax
     ![사진 설명](/image.png)
 ### 이미지 실행결과
 ![풍경사진](/image.jpg) <br>
-##7. Link 링크
+## 7. Link 링크
 ### 7.1 외부 링크
     인라인 링크: [링크](http:/.example.com "링크 제목") 
     ulr 링크: <example.com>, <example@example.com>; 꺽쇠 괄호 없어도 자동으로 링크를 사용
@@ -143,13 +143,13 @@ E-mail <example@example.com> <br>
     [보여지는 내용](#이동할 헤드(제목))
     괄호 안의 링크를 쓸 때는 띄어쓰기는 -로 연결, 영어는 모두 소문자로 작성
 ### 내부 링크 Syntax
+    [1. 헤더](#1-header-헤더) 
+    [2. 강조](#1-emphasis-강조) 
+    [3. 인용](#3-blockquotes-인용) 
+### 내부 링크 실행결과
 [1. 헤더](#1-header-헤더) <br>
 [2. 강조](#1-emphasis-강조) <br>
 [3. 인용](#3-blockquotes-인용) <br>
-### 내부 링크 실행결과
-[1. 헤더](#1-header-헤더)
-[2. 강조](#1-emphasis-강조)
-[3. 인용](#3-blockquotes-인용)
 ## 8. Fenced Code Blocks 코드 블럭
 * 간단한 인라인 코드는 텍스트 앞뒤로 `기호로 감싼다
 * \`\`\` 혹은 ~~~ 코드
