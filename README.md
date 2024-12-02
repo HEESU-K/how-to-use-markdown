@@ -97,16 +97,16 @@ Use Blockquotes
     \#hash mark\#
     \[squre brackets\]
 ### 백슬래쉬 이스케이프 실행결과
-\*literal asterisks\*
-\#hash mark\#
-\[squre brackets\]
+\*literal asterisks\* <br>
+\#hash mark\# <br>
+\[squre brackets\] <br>
 ## 6. Images 이미지
 * 앞에 `!`가 붙는다
 * 인라인 이미지: ![alt text](/image.png)
 * 링크 이미지: ![alt text](image url)
-* 이미지 사이즈 변경: <img width="OOOpx" height="OOOpx"></img>와 같이 표현
+* 이미지 사이즈 변경: `<img width="OOOpx" height="OOOpx"></img>`와 같이 표현
 ### 이미지 Syntax
-    ![풍경사진](/image.png)
+    ![사진 설명](/image.png)
 ### 이미지 실행결과
 ![풍경사진](/image.png)
 ##7. Link 링크
@@ -120,28 +120,28 @@ Use Blockquotes
     네이버 <www.naver.com>; 꺽쇠O
     E-mail <example@example.com>
 ### 외부링크 실행결과
-[Google](https://www.google.com "구글")
-[Naver](https://www.naver.com "네이버")
-구글 www.google.com; 꺽쇠X
-네이버 <www.naver.com>; 꺽쇠O
-E-mail <example@example.com>
+[Google](https://www.google.com "구글") <br>
+[Naver](https://www.naver.com "네이버") <br>
+구글 www.google.com; 꺽쇠X <br>
+네이버 <www.naver.com>; 꺽쇠O <br>
+E-mail <example@example.com> <br>
 ### 7.2 내부 링크
     [보여지는 내용](#이동할 헤드(제목))
     괄호 안의 링크를 쓸 때는 띄어쓰기는 -로 연결, 영어는 모두 소문자로 작성
 ### 내부 링크 Syntax
-[1. 헤더](#1-header-헤더)
-[2. 강조](#1-emphasis-강조))
-[3. 인용](#3-blockquotes-인용)
+[1. 헤더](#1-header-헤더) <br>
+[2. 강조](#1-emphasis-강조) <br>
+[3. 인용](#3-blockquotes-인용) <br>
 ### 내부 링크 실행결과
 [1. 헤더](#1-header-헤더)
 [2. 강조](#1-emphasis-강조))
 [3. 인용](#3-blockquotes-인용)
 ## 8. Fenced Code Blocks 코드 블럭
 * 간단한 인라인 코드는 텍스트 앞뒤로 `기호로 감싼다
-* ``` 혹은 ~~~ 코드
+* \`\`\ 혹은 ~~~ 코드
 * 첫 줄과 마지막 줄에 (```) 또는 (~~~) 삽입
 * 앞에 공백 네 칸 추가
-* ```옆에 언어를 지정해주면 syntax color 적용
+* \`\`\`옆에 언어를 지정해주면 syntax color 적용
 ### 코드 블럭 Syntax
     ```
     This is code blocks
@@ -250,11 +250,11 @@ Left|Center|Right
     Sentence 1
     and this this is sentence 2
     Sentence 3 <br>
-    and this this is sentence 3
+    and this this is sentence 4
 ### 줄바꿈 실행결과
 Sentence 1
 and this this is sentence 2
 Sentence 3 <br>
-and this this is sentence 3
+and this this is sentence 4
 #### 참고 링크
 [markdown_ko](https://github.com/jinkyukim-me/markdown_ko?tab=readme-ov-file)
